@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOVA — O Futuro em Suas Mãos</title>
+    <meta name="description" content="Descubra o ecossistema NOVA: tecnologia de ponta, design minimalista e desempenho incomparável.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="nav-logo">
+                <svg class="logo-svg" viewBox="0 0 100 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <text x="0" y="23" fill="currentColor" font-family="Inter, sans-serif" font-size="24" font-weight="700" letter-spacing="6">NOVA</text>
+                </svg>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#produtos" class="nav-link">Produtos</a></li>
+                <li><a href="#inovacao" class="nav-link">Inovação</a></li>
+                <li><a href="#ecossistema" class="nav-link">Ecossistema</a></li>
+                <li><a href="#suporte" class="nav-link">Suporte</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="nav-icon-btn" aria-label="Pesquisar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                </button>
+                <button class="nav-icon-btn" aria-label="Sacola de compras">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <span class="badge fade-in">Novo Lançamento</span>
+                <h1 class="hero-title slide-up">NOVA Edge X</h1>
+                <p class="hero-subtitle slide-up">Titânio aeroespacial. Câmera quântica de 200MP. Desempenho sem limites.</p>
+                <div class="hero-cta slide-up">
+                    <a href="#comprar" class="btn btn-primary">Comprar</a>
+                    <a href="#produtos" class="btn btn-text">Saiba mais &rarr;</a>
+                </div>
+            </div>
+            <div class="hero-media fade-in">
+                <div class="device-mockup phone-mockup">
+                    <div class="screen-content">
+                        <div class="mockup-gradient-bg"></div>
+                        <div class="mockup-ui">
+                            <span class="mockup-time">9:41</span>
+                            <div class="mockup-widget">
+                                <h3>NOVA OS</h3>
+                                <p>Sua vida mais conectada</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCT SHOWCASE 1: NOVA BOOK -->
+        <section class="product-showcase bg-dark" id="produtos">
+            <div class="showcase-content">
+                <span class="badge-light fade-in">Performance Profissional</span>
+                <h2 class="showcase-title slide-up">NOVA Book Pro</h2>
+                <p class="showcase-subtitle slide-up">Leveza extrema com o chip M-Quantum de 3nm. Bateria para até 24 horas.</p>
+                <div class="showcase-cta slide-up">
+                    <a href="#" class="btn btn-primary-light">Comprar</a>
+                    <a href="#" class="btn btn-text-light">Explorar especificações &rarr;</a>
+                </div>
+            </div>
+            <div class="showcase-media">
+                <div class="device-mockup laptop-mockup">
+                    <div class="laptop-screen">
+                        <div class="laptop-wallpaper"></div>
+                    </div>
+                    <div class="laptop-base"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCT SHOWCASE 2: NOVA AUDIO -->
+        <section class="product-showcase bg-light">
+            <div class="showcase-content">
+                <span class="badge fade-in">Áudio Imersivo</span>
+                <h2 class="showcase-title slide-up">NOVA Sound Pulse</h2>
+                <p class="showcase-subtitle slide-up">Cancelamento de ruído adaptativo por IA. Som espacial que desafia a física.</p>
+                <div class="showcase-cta slide-up">
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="#" class="btn btn-text">Ver detalhes &rarr;</a>
+                </div>
+            </div>
+            <div class="showcase-media audio-media">
+                <div class="audio-circle-glow"></div>
+                <div class="device-mockup audio-mockup">
+                    <div class="earbud-item left"></div>
+                    <div class="earbud-item right"></div>
+                    <div class="earbud-case"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GRID SECTION: ECOSYSTEM CARDS -->
+        <section class="ecosystem" id="ecossistema">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Ecossistema Integrado</h2>
+                    <p class="section-desc">Dispositivos que conversam entre si com fluidez perfeita.</p>
+                </div>
+                <div class="grid-cards">
+                    <div class="card card-large bg-gradient-1">
+                        <div class="card-content">
+                            <span class="card-tag">Casa Inteligente</span>
+                            <h3>NOVA Home Hub</h3>
+                            <p>Controle total da sua residência com reconhecimento de voz neural.</p>
+                            <a href="#" class="btn-link">Descobrir &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="card bg-gradient-2">
+                        <div class="card-content">
+                            <span class="card-tag">Saúde & Bem-estar</span>
+                            <h3>NOVA Watch Series X</h3>
+                            <p>Sensores biométricos avançados diretamente no seu pulso.</p>
+                            <a href="#" class="btn-link">Descobrir &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="card bg-gradient-3">
+                        <div class="card-content">
+                            <span class="card-tag">Serviços</span>
+                            <h3>NOVA Cloud & Infinite</h3>
+                            <p>Armazenamento ilimitado e segurança de ponta a ponta criptografada.</p>
+                            <a href="#" class="btn-link">Descobrir &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- INNOVATION / EDITORIAL SECTION -->
+        <section class="innovation" id="inovacao">
+            <div class="container">
+                <div class="editorial-grid">
+                    <div class="editorial-text">
+                        <span class="badge">Design Sustentável</span>
+                        <h2>Feito para durar. Pensado para o planeta.</h2>
+                        <p>Utilizamos 100% de alumínio reciclado na estrutura de nossos notebooks e titânio recuperado na linha Edge. Nossa cadeia de suprimentos opera com energia 100% renovável desde 2024.</p>
+                        <div class="stats-row">
+                            <div class="stat-item">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Energia Renovável</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">0</span>
+                                <span class="stat-label">Pegada de Carbono em 2030</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="editorial-image">
+                        <div class="editorial-visual-card">
+                            <div class="pulse-dot"></div>
+                            <span>Inovação em cada molécula</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER / CTA -->
+        <section class="cta-section" id="comprar">
+            <div class="container cta-container">
+                <h2>Mantenha-se à frente do tempo</h2>
+                <p>Inscreva-se para receber novidades em primeira mão e ofertas exclusivas do ecossistema NOVA.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Seu e-mail principal" required class="newsletter-input">
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </form>
+                <span class="form-success" id="formSuccess">Obrigado por se inscrever. Bem-vindo ao futuro.</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="suporte">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Explorar</h4>
+                    <ul>
+                        <li><a href="#">NOVA Edge</a></li>
+                        <li><a href="#">NOVA Book</a></li>
+                        <li><a href="#">NOVA Sound</a></li>
+                        <li><a href="#">NOVA Watch</a></li>
+                        <li><a href="#">Acessórios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#">NOVA Cloud</a></li>
+                        <li><a href="#">NOVA Care+</a></li>
+                        <li><a href="#">Troca Inteligente</a></li>
+                        <li><a href="#">Financiamento</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sustentabilidade</h4>
+                    <ul>
+                        <li><a href="#">Compromisso Verde</a></li>
+                        <li><a href="#">Reciclagem</a></li>
+                        <li><a href="#">Ética na Cadeia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Sobre a NOVA</h4>
+                    <ul>
+                        <li><a href="#">Nossa História</a></li>
+                        <li><a href="#">Carreiras</a></li>
+                        <li><a href="#">Imprensa</a></li>
+                        <li><a href="#">Investidores</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NOVA Technologies Inc. Todos os direitos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Vendas</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
