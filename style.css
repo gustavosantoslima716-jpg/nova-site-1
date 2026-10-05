@@ -790,6 +790,39 @@ ul {
 }
 
 @media (max-width: 768px) {
+    .hero {
+        height: auto;
+        min-height: 100vh;
+        padding-top: calc(var(--header-height) + 20px);
+        padding-bottom: 40px;
+        justify-content: flex-start;
+    }
+
+    .hero-content {
+        margin-bottom: 30px;
+    }
+
+    .hero-media {
+        position: relative;
+        height: 380px;
+        margin-top: 20px;
+    }
+
+    .phone-mockup {
+        width: 200px;
+        height: 380px;
+        border-radius: 28px 28px 0 0;
+        border-width: 6px;
+    }
+
+    .mockup-widget {
+        margin-top: 20px;
+    }
+
+    .mockup-widget h3 {
+        font-size: 1.2rem;
+    }
+
     .nav-links {
         position: fixed;
         top: var(--header-height);
